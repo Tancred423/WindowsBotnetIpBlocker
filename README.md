@@ -1,7 +1,7 @@
-# WindowsBotnetIpBlocker
+# Windows Botnet Ip Blocker
 
 ### Overview
-WindowsBotnetIpBlocker is a tool that automatically blocks inbound and outbound connections to known botnet IPs. It retrieves the latest data from [abuse.ch](https://feodotracker.abuse.ch/) and utilizes the Windows Firewall to block these IPs, helping to protect your system from potential threats.
+Windows Botnet Ip Blocker is a tool that automatically blocks inbound and outbound connections to known botnet IPs. It retrieves the latest data from [abuse.ch](https://feodotracker.abuse.ch/) and utilizes the Windows Firewall to block these IPs, helping to protect your system from potential threats.
 
 ### Requirements
 - Windows operating system
@@ -22,14 +22,14 @@ WindowsBotnetIpBlocker is a tool that automatically blocks inbound and outbound 
 
 ### Adding `Start.bat` to Task Scheduler
 
-To automate the execution of WindowsBotnetIpBlocker on a weekly basis, you can add the `Start.bat` file to the Task Scheduler in Windows. Here's how:
+To automate the execution of Windows Botnet Ip Blocker on a weekly basis, you can add the `Start.bat` file to the Task Scheduler in Windows. Here's how:
 
 1. Open the Task Scheduler application.
 2. Click on "Action" → "Create Basic Task" to start the task creation wizard.
 3. Give your task a name and description.
 4. Choose the frequency (e.g. weekly). You can leave the start time as is.
 5. Select "Start a program" as the action to perform.
-6. Browse and select the `Start.bat` file from the WindowsBotnetIpBlocker project directory.
+6. Browse and select the `Start.bat` file from the Windows Botnet Ip Blocker project directory.
 7. Complete the wizard by following the remaining prompts.
 
 Once the task is created, Windows will automatically execute the `Start.bat` file on a weekly basis, ensuring that your system is protected from botnet IPs.
