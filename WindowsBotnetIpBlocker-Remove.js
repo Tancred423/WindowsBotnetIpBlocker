@@ -10,7 +10,7 @@ async function main() {
     )
     console.log('Firewall rules removed successfully')
   } catch (error) {
-    // No not throw error if the rules do not exist
+    // Do not throw error if the rules do not exist
     if (
       !error.message.includes(
         "No MSFT_NetFirewallRule objects found with property 'DisplayName' equal to 'BotnetIpBlocker'.",
